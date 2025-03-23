@@ -11,7 +11,8 @@ def login():
     valid_users = {
         "admin": "password",
         "user1": "pass123",
-        "user2": "mypassword"
+        "user2": "12345"
+      
     }
     
     if username in valid_users and valid_users[username] == password:
